@@ -18,7 +18,7 @@ try {
 			stmt.setString(2,"104");
 			
 			int i=stmt.executeUpdate();  
-			System.out.println(i+" records inserted");  
+			System.out.println(i+" records updated");  
 			  
 			con.close();
 			
